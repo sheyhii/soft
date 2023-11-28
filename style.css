@@ -1,0 +1,249 @@
+
+.f1{
+        background-color: aliceblue;
+        flex-direction: row;
+        display:flex;
+        justify-content: flex-end;
+        gap: 10px;
+}
+.p1{
+    border: 10px solid palegreen;
+    height: 100px;
+    width: 300px;
+    padding: 40px;
+}
+.front{
+    background-color: aliceblue;
+    flex-direction: row;
+    display:flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+.g{
+    text-transform: lowercase;
+}
+.y1{
+    color: wheat;
+}
+.y2{
+    color: greenyellow;
+}
+.y3{
+    color: wheat;
+}
+@media(min-width:100px)and(max-width:1250){
+    body{
+        height: 100%;
+    }
+}
+.img1{
+    border: 10px double;
+    float: left;
+}
+.span1{
+    color: chartreuse;
+}
+.learn1{
+    font-size: 2rem;
+    font-family:'Times New Roman', Times, serif;
+    color:black;
+}
+h1{
+    text-align: center;
+    text-transform: capitalize;
+    color: brown;
+    font-size: 3rem;
+    font-family: serif;
+}
+.sec{
+    background-color: rgb(95, 96, 160);
+    color: white;
+}
+.st{
+    font-family: 'Times New Roman', Times, serif;
+    color: crimson;
+    text-align: center;
+    text-transform: capitalize;
+    font-style: italic;
+}
+.img2{
+    float: right;
+    padding-right: 20px;
+    margin-right: 100px;
+    padding-left: 60px;
+    padding-block: 40px;
+    padding-right:170px;
+    width: 200px;
+    border: 10px solid teal;
+    font-size: 10px;
+}
+.start1{
+    background-color: cadetblue;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+}
+.st2{
+    text-align: center;
+    font-size: 3rem;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.stages{
+    font-size: 2rem;
+}
+.span2{
+    color: red;
+}
+.stages2{
+    font-size: 2rem;
+}
+.stage3ai{
+    font-size: 30px;
+}
+.stage3b{
+    font-size: 30px;
+}
+.st3{
+    text-align: center;
+    font-size: 3rem;
+    color: black;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.img3a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 1rem;
+}
+.img3ai{
+    display: inline-block;
+    border: 5px dotted rosybrown;
+    padding: 50px;
+}
+.img4{
+    float: left;
+
+}
+.img5{
+    float: right;
+    border: 5px;
+}
+
+footer{
+    color: darkslategray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100px;
+    text-align: center;
+    clear: both;
+}
+.fone{
+    font-size: 20px;
+}
+.about{
+    background-color: beige;
+    padding-left: 40px;
+    padding-right: 40px;
+    border:20px solid gray;
+    padding-bottom: 10px;
+    margin-left: 20px;
+    border-radius: 20%;
+    color: black;
+    font-size:2rem;
+}
+
+.ai{
+    float:right;
+}
+.b{
+    border: 20px solid gray;
+    border-radius: 30%;
+    padding: 50px 50px;
+    margin-top: 100px;
+}
+.c{
+    float: right;
+}
+.d{
+    background-color: gray;
+    color: white;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 200px;
+    justify-content:space-between;
+    clear: both;
+    border: 5px solid fuchsia
+    gap: 3px;
+
+}
+.flex1{
+    background-color: red;
+    flex-basis: 500px;
+    text-align: center;
+}
+.flex2{
+    background-color: blue;
+    flex-basis: 500px;
+    text-align: center;
+    
+}
+.flex3{
+    background-color: green;
+    flex-basis: 500px;
+    text-align: center;
+    align-self: flex-start;
+}
+.p-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 4rem;
+}
+.p-plan{
+    background-color:beige;
+    flex: 1;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+.p-title{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.p-price{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.p-li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.p-li li{
+    margin-bottom: 10px;
+}
+.p-button{
+    background-color: darkorange;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+}
+@media(max-width:1250px){
+    .p-container{
+        flex-direction: column;
+        height: 100%;
+    }
+}
